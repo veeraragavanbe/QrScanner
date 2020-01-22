@@ -6,30 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="20dp"
     >
-<ImageView
-    android:id="@+id/imgview"
-    android:layout_width="250dp"
-    android:layout_height="250dp"
-    android:layout_gravity="center"
-    android:layout_marginTop="50dp"
-    />
-<EditText
-    android:id="@+id/entext"
-    android:layout_width="match_parent"
-    android:layout_height="75dp"
-    android:hint="Enter Text Here"
-    android:textSize="30dp"
-    />
-<Button
-    android:id="@+id/generate"
-    android:layout_width="200dp"
-    android:layout_height="70dp"
-    android:layout_gravity="center"
-    android:layout_marginTop="70dp"
-    android:text="Generate"
-    android:textSize="25dp"
-    />
+
+ <Button
+     android:id="@+id/recording"
+     android:textSize="20dp"
+     android:text="FILE UPLOAD"
+     android:layout_width="match_parent"
+     android:layout_height="11mm"
+     android:layout_marginTop="100dp"
+ />
+
+  <TextView
+      android:id="@+id/status"
+      android:layout_marginTop="50dp"
+      android:text="No File Selected"
+      android:layout_marginLeft="150dp"
+      android:layout_width="match_parent"
+      android:layout_height="30dp"
+   />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="11mm"
+        android:layout_marginTop="50dp"
+        android:text="upload"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="11mm"
+        android:layout_marginTop="50dp"
+        android:text="next"
+        android:textSize="20dp" />
+
+
+
 
 </LinearLayout>
